@@ -14,5 +14,6 @@ Suggests:
     testthat,
     rmarkdown,
     covr
-Imports: assertthat
-VignetteBuilder: knitr
+Imports:
+    assertthat
+RoxygenNote: 5.0.1
