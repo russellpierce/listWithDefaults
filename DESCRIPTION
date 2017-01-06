@@ -10,8 +10,8 @@ Description: Provides a function that, as an alternative to base::list, allows
 URL: https://github.com/drknexus/listWithDefaults
 BugReports: https://github.com/drknexus/listWithDefaults
 License: GPL-2
-Suggests: testthat,
-    knitr,
+Suggests:
+    testthat,
     rmarkdown,
     covr
 Imports: assertthat
