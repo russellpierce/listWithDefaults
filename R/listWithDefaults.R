@@ -20,7 +20,6 @@ function(..., defaultList=NULL) {
     assert_that(length(unique(names(result)))==length(names(result)))
     assert_that(length(unique(names(defaultList)))==length(names(defaultList)))
     assert_that(!is.null(defaultList))
-    assert_that(all(names(result) %in% names(defaultList)))
     for (thisName in names(defaultList)[!names(defaultList) %in% names(result)]) {
         result[thisName] <- defaultList[thisName] 
     }
