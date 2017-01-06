@@ -11,6 +11,7 @@ BugReports: https://github.com/drknexus/listWithDefaults
 License: GPL-2
 Suggests: testthat,
     knitr,
-    rmarkdown
+    rmarkdown,
+    covr
 Imports: assertthat
 VignetteBuilder: knitr

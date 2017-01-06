@@ -26,4 +26,3 @@ r_github_packages:
 
 after_success:
   - Rscript -e 'covr::codecov()'
-  - bash <(curl -s https://codecov.io/bash) -t 01da6793-9515-42e0-ae81-8fe
