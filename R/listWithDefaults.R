@@ -18,7 +18,7 @@
 listWithDefaults <-
 function(..., defaultList=NULL) {
     result <- list(...)
-    if (is.list(result[[1]]) & length(result) == 1) {
+    if (length(result) > 0 && is.list(result[[1]]) && length(result) == 1) {
       result <- result[[1]]
     } 
     assert_that(length(unique(names(result)))==length(names(result)))
