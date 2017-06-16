@@ -7,7 +7,7 @@
 listWithDefaults(..., defaultList = NULL)
 }
 \arguments{
-\item{...}{objects, \emph{must} be named}
+\item{...}{objects, \emph{must} be named; alternatively a single argument may be provided in this position as a \emph{named} list}
 
 \item{defaultList}{a \emph{named} list containing the default values}
 }
@@ -23,5 +23,5 @@ listWithDefaults(defaultList=list(a=2,b=2))
 listWithDefaults(a=1,defaultList=list(a=2,b=2))
 listWithDefaults(b=1,defaultList=list(a=2,b=2))
 listWithDefaults(a=1,b=1,defaultList=list(a=2,b=2))
+listWithDefaults(list(a=1),defaultList=list(a=2,b=2))
 }
-
